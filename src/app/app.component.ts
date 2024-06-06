@@ -10,4 +10,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'adminPro';
+  counter = 0;
+
+  add(num: number):void{
+    this.counter += num;
+  }
 }
